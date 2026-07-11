@@ -1,0 +1,75 @@
+{
+  "raw_shape": [
+    284807,
+    31
+  ],
+  "cleaned_shape": [
+    283726,
+    31
+  ],
+  "missing_values": 0,
+  "duplicate_rows": 1081,
+  "fraud_count": 473,
+  "genuine_count": 283253,
+  "num_features": 30,
+  "feature_names": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount"
+  ],
+  "model_results": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.9994184612131252,
+      "Precision": 0.8780487804878049,
+      "Recall": 0.7578947368421053,
+      "F1-Score": 0.8135593220338984,
+      "ROC-AUC": 0.8788591087257251
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.9980615373770838,
+      "Precision": 0.45161290322580644,
+      "Recall": 0.7368421052631579,
+      "F1-Score": 0.56,
+      "ROC-AUC": 0.8676708452212949
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.99115356148451,
+      "Precision": 0.14235500878734622,
+      "Recall": 0.8526315789473684,
+      "F1-Score": 0.24397590361445784,
+      "ROC-AUC": 0.9220087163417007
+    }
+  ],
+  "best_model": "Random Forest",
+  "best_f1": 0.8135593220338984
+}
